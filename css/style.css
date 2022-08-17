@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Poppins, sans-serif;
+}
+
+.section1{
+    background-color: #7030CC;
+}
+
+.header{
+    margin:0px 100px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.nav-item{
+    display: inline;
+    margin:0px 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.nav-link.active{
+    border-bottom: 1px solid #CE6BDE;
+    color:#1BBCEF;
+}
+
+.nav-link.button{
+    padding:20px 40px;
+    background-color: #1BBCEF;
+}
+
+.section1-content{
+    margin:0px 100px;
+    display: flow-root;
+}
+
+.section1-content-left{
+    color:#ffffff;
+    margin-top:100px;
+}
+
+.section1-content-left h1{
+    font-size: 40px;
+}
+
+.section1-content-left p{
+    margin:40px 0px;
+}
+
+.section1-content-right{
+    float: right;
+    margin-bottom: 50px;
+}
+
+.section1-content-right img{
+    width: 500px;
+}
+
+.section2{
+    margin:50px 100px;
+}
+
+.section2-content{
+    display: flow-root;
+}
+
+.section2-content-left{
+    float: left;
+    margin-right: 100px;
+}
+
+.section2-content-left img{
+    width: 600px;
+}
+
+.section2-content-right{
+    margin-top:120px;
+}
+
+.goals{
+    margin:40px 0px;
+}
+
+.goals-item{
+    margin:30px 0px;
+}
+
+.goals-item p{
+    margin-top:10px;
+}
+
+.section3{
+    margin:50px 200px;
+}
+
+.section3-content h2{
+    text-align: center;
+}
+
+.features{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item{
+    text-align: center;
+    width: 200px;
+    box-shadow: 5px 5px 5px 2px #dfd7d7;
+    border-radius: 20px;
+}
+
+.feature-img{
+    margin:30px 0px;
+}
+
+.feature-bottom{
+    margin-top:20px;
+    padding:20px 10px;
+    border-radius: 20px;
+}
+
+.feature-bottom:hover{
+    background-color: #6429B7;
+    color:#ffffff;
+}
+
+.feature-name{
+    font-weight: 700;
+}
+
+.feature-desc{
+    margin-top:10px;
+}
